@@ -1,0 +1,39 @@
+Q.1- What is an access token? Generate your access token for any API.
+Ans.1- The Access Token is a credential that can be used by an application to access an API. Its purpose is to inform the API that the bearer of this token has been authorized to access the API and perform specific actions (as specified by the scope that has been granted).
+A token consists of various fields such as:-
+1) an identifier.
+2) the identifier of the associated logon session.
+3) the user identifier.
+4) the identifiers of group the user is part of.
+5) the privileges, i.e. special capabilities the user has.
+6) the default owner, primary group and ACL for objects created by the subject associated to the token.
+We can generate access token of Facebook using following steps:-
+a) Go to developers.facebook.com.
+b) Then go to Tools option and select graph API explorer.
+c) Login to your account.
+d) Click on get Access Token-> select permissions >> click on get access token
+e) Copy the access token.
+#Access token that I generated for my account was:-
+EAACEdEose0cBAMczUEYQWTIdVnJxFfi2NDUhkJXA01BTvTSnKY2FdvrWl2CrXOtN918TxRpDSabZCfS5QpoVTFs1tLtXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAJUzAo7U909sgIOiA63CZCd54zGRIZAP8ZD
+#I also generated a personal access token for my github account:-
+1a8f18a0625cd10XXXXXXXXXXXXXXXd3
+
+Q.2- Get the IP address of some common sites like Google, Facebook by using DNS lookup.
+Ans.2- google.com- 172.217.2.46
+facebook.com- 31.13.71.36
+twitter.com- 104.244.42.193
+bitbucket.com- 104.192.143.7
+
+Q.3- What is a difference between library and API . Figure it out with examples.
+Ans.3- A library is a collection of reusable components of code. 
+A library is most often wrapped in an API that defines the functionality the library provides and how to use it.
+Library is written in same language which is a collection of all the functionalities required for the use case.
+Eg. Scipy is a free and open source python library used for scientific and technical computing.
+Numpy is a library of Python, adding support for large, multi-dimensional arrays and matrices.
+
+An API (application programming interface) is a term meaning the functions/methods in a library that you can call to ask it to do things for you - the interface to the library.
+API is a part of library which defines how an application communicates with external code.
+API can be written in any language.
+Eg. Uber uses Google Maps API for showing navigation and ways.
+Twitter REST API allow developers to access core Twitter data.  
+
